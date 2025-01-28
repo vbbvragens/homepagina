@@ -18,3 +18,8 @@ const toggleButton = document.getElementById('darkModeToggle');
         h3s.forEach(h3 => h3.classList.toggle('dark-mode'));
         buttons.forEach(button => button.classList.toggle('dark-mode'));
     });
+
+// Buton metnini güncelle
+    const isDarkMode = body.classList.contains('dark-mode');
+    toggleButton.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
+});
