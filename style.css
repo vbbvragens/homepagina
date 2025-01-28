@@ -479,7 +479,7 @@ button.dark-mode:hover {
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 10px; /* Font boyutunu küçült */
+  font-size: 14px; /* Font boyutunu küçült */
   font-weight: 500;
   line-height: 1.5;
   outline: transparent;
