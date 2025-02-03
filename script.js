@@ -1,3 +1,5 @@
+// script.js
+
 const toggleButton = document.getElementById('darkModeToggle');
 const body = document.body;
 const header = document.querySelector('header');
